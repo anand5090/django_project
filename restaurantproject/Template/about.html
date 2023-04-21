@@ -1,0 +1,38 @@
+{% include "header1.html" %}
+{% load static %}
+ <!-- About section begin -->
+ <div id="about">
+    <h1 id="section">About</h1>
+    <div id="about_row">
+        <div class="about_col">
+            <h1>About Us</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Veniam laborum magnam officia consequuntur cum repudiandae nihil 
+                temporibus tempora ex labore quas, corrupti deleniti iusto cumque at,
+                delectus minus quos voluptas!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Dolorum aspernatur accusamus inventore animi eius dolorem explicabo alias, 
+                possimus facilis optio non voluptatum fuga asperiores 
+                totam distinctio eaque deserunt at nesciunt?
+                
+            </p>
+
+        </div>
+        <div  class="about_col">
+            <div id="about_img">
+                <div>
+                    <img src= "{% static 'images/about.png'%}" alt="Aboutimg">
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- About section end -->
+{% include "footer.html" %}

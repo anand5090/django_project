@@ -1,0 +1,38 @@
+<link rel="stylesheet" href="/static/CSS/style.css">
+{% load static %}
+    <!-- Header section begin -->
+    <div id="header">
+        <nav id="navbar">
+            <!-- <a href="/">
+                <img src= "{% static 'images/logo.png" alt='%}"logo" class="logoimg">
+            </a> -->
+            <h1>Anand Resturant</h1>
+            <ul>
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'Menu' %}">Menu</a></li>
+                <li><a href="{% url 'chef' %}">Chef</a></li>
+                <li><a href="{% url 'about' %}">About</a></li>
+                <li><a href="{% url 'contact' %}">Contact</a></li>
+                <li><a href="{% url 'Book' %}">Book Table</a></li>
+            </ul>
+            <div id="phone">
+                <a href="tel:+1212224656564">+1212224656564</a>
+
+            </div>
+
+        </nav>
+        <div id="mobile_menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#chef">Chef</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#Book">Book Table</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- Header section end -->
+    

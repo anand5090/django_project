@@ -1,0 +1,63 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Tilt+Prism&display=swap" rel="stylesheet">
+    <!-- Awesome fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- connect style.css -->
+    <link rel="stylesheet" href="/static/CSS/style.css">
+    <title>Anand restaurant</title>
+</head>
+<body>
+    <!-- hero section begin -->
+   <div id="hero">
+    <div id="hero_content">
+     <h1>Anand Resturant</h1>
+     <h2>Best Quality and Tasty food point</h2>
+     <a href="{% url 'Book' %}">Book Table</a>
+    </div>
+   </div>
+    <!-- hero section end -->
+
+    <!-- Header section begin -->
+    <div id="header">
+        <nav id="navbar">
+            <!-- <a href="/">
+                <img src= "{% static 'images/logo.png" alt='%}"logo" class="logoimg">
+            </a> -->
+            <h1>Anand Resturant</h1>
+            <ul>
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'Menu' %}">Menu</a></li>
+                <li><a href="{% url 'chef' %}">Chef</a></li>
+                <li><a href="{% url 'about' %}">About</a></li>
+                <li><a href="{% url 'contact' %}">Contact</a></li>
+                <li><a href="{% url 'Book' %}">Book Table</a></li>
+            </ul>
+            <div id="phone">
+                <a href="tel:+1212224656564">+1212224656564</a>
+
+            </div>
+
+        </nav>
+        <div id="mobile_menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#chef">Chef</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#Book">Book Table</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- Header section end -->
